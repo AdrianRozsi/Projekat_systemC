@@ -1,0 +1,132 @@
+bass
+Info: Soft: Constructed
+
+Info: BRAM: Constructed.
+
+Info: BRAM: Constructed.
+
+Info: BRAM: Constructed.
+
+Info: BRAM Controller: Constructed.
+
+Info: Hard: Constructed.
+
+Info: Interconnect: Constructed.
+
+Info: Virtual Platform: Constructed.
+[DEBUG] WAV betoltve: 5761150 minta, 48000 Hz
+[INFO] Feldolgozas... Blokkok: 2812
+......
+[DEBUG] Vegso normalizalas...
+[INFO] Max amp: 4.12866, Gain: 0.249476
+[SIKER] output_fixed.wav elkeszult!
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+
+Info: Virtual Platform: Destroyed.
+
+Info: Interconnect: Destroyed.
+
+Info: Hard: Destroyed.
+
+Info: BRAM Controller: Destroyed.
+
+Info: BRAM: Destroyed.
+
+Info: BRAM: Destroyed.
+
+Info: BRAM: Destroyed.
+
+Info: Soft: Destroyed.
+
+
+--------------------------------------------------------------------------------------
+
+
+
+
+
+
+MID
+Info: Soft: Constructed
+
+Info: BRAM: Constructed.
+
+Info: BRAM: Constructed.
+
+Info: BRAM: Constructed.
+
+Info: BRAM Controller: Constructed.
+
+Info: Hard: Constructed.
+
+Info: Interconnect: Constructed.
+
+Info: Virtual Platform: Constructed.
+[DEBUG] WAV betoltve: 5761150 minta, 48000 Hz
+[INFO] Feldolgozas... Blokkok: 2812
+......
+[DEBUG] Vegso normalizalas...
+[INFO] Max amp: 5.35335, Gain: 0.192403
+[SIKER] output_fixed.wav elkeszult!
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+
+Info: Virtual Platform: Destroyed.
+
+Info: Interconnect: Destroyed.
+
+Info: Hard: Destroyed.
+
+Info: BRAM Controller: Destroyed.
+
+Info: BRAM: Destroyed.
+
+Info: BRAM: Destroyed.
+
+Info: BRAM: Destroyed.
+
+Info: Soft: Destroyed.
+
+--------------------------------------------------------------------------------------------------------
+
+TREBLE
+Info: Soft: Constructed
+
+Info: BRAM: Constructed.
+
+Info: BRAM: Constructed.
+
+Info: BRAM: Constructed.
+
+Info: BRAM Controller: Constructed.
+
+Info: Hard: Constructed.
+
+Info: Interconnect: Constructed.
+
+Info: Virtual Platform: Constructed.
+[DEBUG] WAV betoltve: 5761150 minta, 48000 Hz
+[INFO] Feldolgozas... Blokkok: 2812
+......
+[DEBUG] Vegso normalizalas...
+[INFO] Max amp: 4.25537, Gain: 0.242047
+[SIKER] output_fixed.wav elkeszult!
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+
+Info: Virtual Platform: Destroyed.
+
+Info: Interconnect: Destroyed.
+
+Info: Hard: Destroyed.
+
+Info: BRAM Controller: Destroyed.
+
+Info: BRAM: Destroyed.
+
+Info: BRAM: Destroyed.
+
+Info: BRAM: Destroyed.
+
+Info: Soft: Destroyed.

@@ -1,0 +1,55 @@
+systemC
+Format
+wav
+Duration (s)
+120.02
+Bitrate (bps)
+1536002
+Sample Rate (Hz)
+48000
+Channels
+2
+Codec
+pcm_s16le
+LUFS
+-11.09
+True Peak (dB)
+0.33
+Loudness Range
+9.1
+Max Volume (dB)
+0
+RMS
+-12.3
+Probe Score
+99
+
+
+
+
+------------------------------------------------------------------------------
+C++
+Format
+wav
+Duration (s)
+120.02
+Bitrate (bps)
+1536002
+Sample Rate (Hz)
+48000
+Channels
+2
+Codec
+pcm_s16le
+LUFS
+-14.16
+True Peak (dB)
+-2.98
+Loudness Range
+8.6
+Max Volume (dB)
+-3
+RMS
+-15.4
+Probe Score
+99

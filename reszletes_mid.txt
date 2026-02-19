@@ -1,0 +1,136 @@
+File Summary
+The File Summary gives you an overview of the main elements of your audio file, including number of channels, sample and bit rates, bit depth, file size and length, and metadata tags, if any.
+
+File Detail
+The File Detail gives you the following detailed statistics about your audio file:
+
+Length. Length of the audio file in seconds.
+Scaled by. What the input is scaled by. By default 2^31-1, to go from 32-bit signed integer to [-1, 1].
+Maximum amplitude. Maximum sample value.
+Minimum amplitude. Minimum sample value.
+Midline amplitude. AKA mid-range, midpoint between the max and minimum values.
+Mean norm. Arithmetic mean of samples' absolute values.
+Mean amplitude. Arithmetic mean of samples' values.
+RMS amplitude. Root mean square, root of squared values' mean.
+Maximum delta. Maximum difference between two successive samples.
+Minimum delta. Minimum difference between two successive samples.
+Mean delta. Arithmetic mean of differences between successive samples.
+RMS delta. Root mean square of differences between successive samples.
+Rough frequency. Estimation of the input file's frequency, in hertz.
+Volume adjustment. Value that should be sent to -v so peak absolute amplitude is 1.
+Channel Detail
+The Channel Detail gives you the following detailed statistics about the channels in your audio file:Audio Recording Equipment
+
+DC offset, Min level, and Max level. Shown in the range ±1.
+Pk lev dB and RMS lev dB. Standard peak and RMS level measured in dBFS.
+RMS Pk dB and RMS Tr dB. Peak and trough values for RMS level measured over a short window (50ms).
+Crest factor. Standard ratio of peak to RMS level.
+Flat factor. A measure of the flatness (i.e. consecutive samples with the same value) of the signal at its peak levels.
+Pk count. The number of times that the signal reached either Min or Max level.
+Bit-depth. The resolution of the sound data in an audio file, such as 16-bit, 24-bit or 32-bit.
+Num samples. The sample-rate multiplied by Length.
+Length s. The duration in seconds of the audio.
+Scale Max. The maximum value that could apply to Max level.
+Window s. The length of the window used for the peak and trough RMS measurements.
+
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+
+
+C++
+File Summary
+File Name : output_mid.wav
+Channels : 2
+Sample Rate : 48000
+Precision : 16-bit
+Duration : 00:02:00.02 = 5761150 samples ~ 9001.8 CDDA sectors
+File Size : 23.0M
+Bit Rate : 1.54M
+Sample Encoding: 16-bit Signed Integer PCM
+ 
+File Detail
+Samples read: 11522300
+Length (seconds): 120.023958
+Scaled by: 2147483647.0
+Maximum amplitude: 0.477417
+Minimum amplitude: -0.556030
+Midline amplitude: -0.039307
+Mean norm: 0.067982
+Mean amplitude: -0.000001
+RMS amplitude: 0.090386
+Maximum delta: 0.084778
+Minimum delta: 0.000000
+Mean delta: 0.001369
+RMS delta: 0.002894
+Rough frequency: 244
+Volume adjustment: 1.798
+ 
+Channel Detail
+Overall Left Right
+DC offset -0.000001 -0.000001 -0.000001
+Min level -0.556030 -0.556030 -0.556030
+Max level 0.477417 0.477417 0.477417
+Pk lev dB -5.10 -5.10 -5.10
+RMS lev dB -20.88 -20.88 -20.88
+RMS Pk dB -13.93 -13.93 -13.93
+RMS Tr dB -117.18 -117.18 -117.18
+Crest factor - 6.15 6.15
+Flat factor 0.00 0.00 0.00
+Pk count 2 2 2
+Bit-depth 16/16 16/16 16/16
+Num samples 5.76M
+Length s 120.024
+Scale max 1.000000
+Window s 0.050
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+
+systemC
+File Summary
+File Name : output_fixed_mid.wav
+Channels : 2
+Sample Rate : 48000
+Precision : 16-bit
+Duration : 00:02:00.02 = 5761024 samples ~ 9001.6 CDDA sectors
+File Size : 23.0M
+Bit Rate : 1.54M
+Sample Encoding: 16-bit Signed Integer PCM
+ 
+File Detail
+Samples read: 11522048
+Length (seconds): 120.021333
+Scaled by: 2147483647.0
+Maximum amplitude: 0.919220
+Minimum amplitude: -0.999969
+Midline amplitude: -0.040375
+Mean norm: 0.112645
+Mean amplitude: -0.000001
+RMS amplitude: 0.150853
+Maximum delta: 0.104065
+Minimum delta: 0.000000
+Mean delta: 0.002473
+RMS delta: 0.005147
+Rough frequency: 260
+Volume adjustment: 1.000
+ 
+Channel Detail
+Overall Left Right
+DC offset -0.000001 -0.000001 -0.000001
+Min level -0.999969 -0.999969 -0.999969
+Max level 0.919220 0.919220 0.919220
+Pk lev dB -0.00 -0.00 -0.00
+RMS lev dB -16.43 -16.43 -16.43
+RMS Pk dB -8.62 -8.62 -8.62
+RMS Tr dB -115.65 -115.65 -115.65
+Crest factor - 6.63 6.63
+Flat factor 15.92 15.92 15.92
+Pk count 8 8 8
+Bit-depth 16/16 16/16 16/16
+Num samples 5.76M
+Length s 120.021
+Scale max 1.000000
+Window s 0.050
